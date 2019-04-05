@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charset="utf-8"></mate>
+        <title>테이블 병합 예제2</title>
+
+        <style>
+            table{
+                border: 1px solid black;
+                width: 50%;
+                height: 40vh;
+                text-align: center;
+            }
+            tr{
+                border: 1px solid black;
+            }
+            td{
+                border: 1px solid black;
+            }
+
+        #a{
+            background-color: blue;
+            color:white
+        }
+        #b{
+            background-color: yellow;
+            
+        }
+        
+        
+        </style>
+    </head>
+
+    <body>
+        <table >
+            <tr>
+                <td rowspan="2" id="a">1</td>
+                <td>2</td>
+                <td rowspan="3" id="b">3</td>
+            </tr>
+            <tr>
+                    <td>5</td>
+             </tr>
+             <tr>
+                    <td>7</td>
+                    <td>8</td>
+              </tr>
+        </table>
+    </body>
+</html>
