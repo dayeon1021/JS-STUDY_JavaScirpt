@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <mata charset="UTF-8">
+            <title>Document</title>
+        </mata>
+
+    </head>
+
+    <body>
+        <form>
+            ID : <input type="text" id="id"><br>
+            PW : <input type="password" id ="pw"><br>
+           <input type="submit" value="SUBMIT">    
+        </form>
+
+        <script>
+            window.onsubmit = alt;
+
+            function alt(){
+                var id = document.getElementById("id").value;  //함수 안에 써야함
+                var pw = document.getElementById("pw").value;
+                alert("ID = "+id + "  PW = " + pw);
+            }
+        </script>
+
+    </body>
+
+</html>

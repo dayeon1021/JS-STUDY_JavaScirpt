@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color:yellowgreen;
+            }
+
+            #id{
+                background-color:skyblue;
+                color: red;
+            }
+            #pw{
+                background-color:pink;
+            }
+            #sub{
+                background-color: orange;
+                color:brown;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>♥정보를 알려주세용♥</h2>
+   
+        <form>
+                <i>이름</i> : <input type="text" id="name"><br>
+                아이디 : <input type="text" id = "id"><br>
+                비밀번호 : <input type="pssword" id = "pw"><br>
+                <input type="submit" value="제출하기" id ="sub">
+                <input type="reset" value="초기화하기">
+        </form>
+        
+
+        <script>
+            window.onsubmit=alt;
+
+            function alt(){
+                var id = document.getElementById("id").value;
+                var pw = document.getElementById("pw").value;
+                var name = document.getElementById("name").value;
+
+                alert("제 이름은 "+name+"입니당~ ");
+                alert("ID = "+id+" PASSWORD = "+pw);
+            }
+
+        </script>
+    </body>
+</html>
